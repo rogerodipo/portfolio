@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.77177db8.chunk.css",
+    "main.js": "/portfolio/static/js/main.b0db9125.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b0db9125.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.cbff171f.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.cbff171f.js.map",
+    "static/css/2.dbd8b1e0.chunk.css": "/portfolio/static/css/2.dbd8b1e0.chunk.css",
+    "static/js/2.3a640664.chunk.js": "/portfolio/static/js/2.3a640664.chunk.js",
+    "static/js/2.3a640664.chunk.js.map": "/portfolio/static/js/2.3a640664.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.7578ed7ed65d08fff2f632dfd723db9a.js": "/portfolio/precache-manifest.7578ed7ed65d08fff2f632dfd723db9a.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.dbd8b1e0.chunk.css.map": "/portfolio/static/css/2.dbd8b1e0.chunk.css.map",
+    "static/css/main.77177db8.chunk.css.map": "/portfolio/static/css/main.77177db8.chunk.css.map",
+    "static/media/architecture.jpg": "/portfolio/static/media/architecture.942edacb.jpg",
+    "static/media/guitar.jpg": "/portfolio/static/media/guitar.472168a9.jpg",
+    "static/media/App.css": "/portfolio/static/media/mic.57a09e04.jpg",
+    "static/media/money.jpg": "/portfolio/static/media/money.426b2b63.jpg",
+    "static/media/vanguard.jpg": "/portfolio/static/media/vanguard.e03307c5.jpg"
+  }
+}
