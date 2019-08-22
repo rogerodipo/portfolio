@@ -10,7 +10,7 @@ export class Hero extends Component {
         <div>
           <div>
             
-              <h1>Angelica Schuyler.</h1>
+              <h1>Full-Stack Web Developer.</h1>
               <Typist
             avgTypingDelay = {30}
               cursor={{
