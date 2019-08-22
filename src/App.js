@@ -48,7 +48,7 @@ function App() {
           <img src={img} alt="Pattern" />
           <div>
             <h2>
-              My passion is building things that are beautiful to see and simple to use.
+              My passion is building things that are beautiful to behold and simple to use.
             </h2>
             <p>
               Marketing aside, what you need is a working web or mobile app that
