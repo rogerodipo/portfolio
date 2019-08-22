@@ -1,33 +1,327 @@
-.App {
-  text-align: center;
+:root {
+  /* --theme-color: #297373; */
+  --theme-color: #2c618c;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+  font-size: 1.5rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  font-family: "Vollkorn", serif;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-image: url("./assets/mic.jpg");
+  background-size: cover;
+  height: 90vh;
+  position: relative;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.hero h1 {
+  font-size: 2.5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h1,
+h2,
+h3 {
+  font-family: "Vollkorn", serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+.hero::before {
+  content: "";
+  display: block;
+  z-index: 1;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero h1 {
+  margin: 40px;
+}
+
+.hero p {
+  margin: 10px;
+}
+
+.hero > div {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section {
+  width: 100%;
+  min-height: 600px;
+  height: auto;
+  padding: 40px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about {
+  justify-content: center;
+}
+
+section > div {
+  padding: 40px;
+  grid-gap: 40px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#tools {
+  color: white;
+}
+
+#tools > div {
+  justify-content: flex-start;
+}
+
+#tools ul {
+  margin: 20px 0px;
+  list-style: none;
+  text-align: center;
+}
+
+#tools li {
+  margin: 15px;
+}
+
+#tools .headings {
+  color: #ddd;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+#tools > div > div {
+  justify-content: flex-start;
+}
+
+section > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#work > div h1 {
+  font-size: 4em;
+}
+
+#work p {
+  padding: 30px 0px;
+}
+
+#work span {
+  font-weight: bold;
+}
+
+section:nth-child(even) {
+  background-color: black;
+  color: white;
+}
+
+#about > div {
+  width: 100%;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+section .passion div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  border: 2.5px solid #2c618c;
+  border-radius: 2.5px;
+  width: 100px;
+  margin: 30px;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  transition: all 0.2s ease-in;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px;
+  border: 2px solid black;
+  outline: none;
+  background-color: black;
+  color: white;
+}
+
+/* .hire-button{
+  background-color: white;
+  font-size: 0.55em;
+  color: black;
+} */
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 60px;
+  background-color: black;
+  color: white;
+  display: relative;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 20px;
+  cursor: pointer;
+  height: 100%;
+  transition: all 0.15s ease-in;
+}
+
+nav ul li a {
+  height: 100%;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background-color: white;
+  color: black;
+}
+
+.brand {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+}
+
+.brand span {
+  font-weight: 100;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger div {
+  background-color: white;
+  width: 23px;
+  height: 3px;
+  margin: 3px;
+  border-radius: 3px;
+}
+
+#contact {
+  color: black;
+  background-color: #eee;
+}
+
+footer {
+  width: 100%;
+  min-height: 400px;
+  height: auto;
+  padding: 40px 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+footer p {
+  font-size: 0.8em;
+  color: #ddd;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 30px;
+}
+
+form input,
+textarea {
+  width: 100%;
+  min-height: 60px;
+  padding: 20px;
+  margin: 10px 0px;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  button {
+    margin: 10px;
+  }
+
+  nav ul {
+    position: absolute;
   }
 }
