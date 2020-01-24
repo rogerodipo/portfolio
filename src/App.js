@@ -181,12 +181,14 @@ class App extends React.Component {
         <section id="contact">
           <h1>Get in touch.</h1>
           <form
-            action="mailto:rogerodipo@gmail.com"
-            method="post"
+            action="https://mailthis.to/rogerodipo@gmail.com"
+            method="POST"
             encType="text/plain"
           >
-            <input required type="text" placeholder="Name" name="Name: " />
-            <input required type="email" placeholder="Email" name="Email: " />
+            <input required type="text" placeholder="Name" name="Name" />
+            <input required type="email" placeholder="Email" name="Email" />
+            <input type="hidden" name="_confirmation" value="It has been successfully submitted"></input>
+            <input type="hidden" name="_after" value="https://rogerodipo.me"></input>
             <textarea
               required
               id=""
@@ -201,7 +203,7 @@ class App extends React.Component {
           </form>
         </section>
         <footer>
-          <h1>Let me build the website you need.</h1>
+          <h1>Let me build the site or app you need.</h1>
           <p>Handcrafted by me. &copy;2019 | mail@rogerodipo.me </p>
         </footer>
       </div>
