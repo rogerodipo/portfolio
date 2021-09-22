@@ -43,7 +43,7 @@ class App extends React.Component {
       >
         <nav>
           <a href="/" className="brand">
-            <span>Roger</span>Odipo
+            INSELBERG
           </a>
           <ul className="links-ul" >
             <Link to="about" smooth={true} onClick = {this.removeNav}>
@@ -88,7 +88,7 @@ class App extends React.Component {
           </div>
         </section>
         <section id="tools" className="three-column-section">
-          <h1>These are a few of my favourite things. </h1>
+          <h1>These are a few of our favourite things. </h1>
           <div>
             <div className="grid-item grid-item-1">
               <div className="headings">
@@ -135,7 +135,7 @@ class App extends React.Component {
           </div>
         </section>
         <section id="work" className="three-column-section">
-          <h1>Here's some work I've done.</h1>
+          <h1>Here's some work we've done.</h1>
           <div>
             <div className="grid-item grid-item-1">
               <img src={randomkey} alt="" />
@@ -203,7 +203,7 @@ class App extends React.Component {
           </form>
         </section>
         <footer>
-          <h1>Let me build the site or app you need.</h1>
+          <h1>Let us help grow your brand.</h1>
           <p>Handcrafted by me. &copy;2019 | mail@rogerodipo.me </p>
         </footer>
       </div>

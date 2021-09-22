@@ -10,7 +10,7 @@ export class Hero extends Component {
         <div>
           <div>
             
-              <h1>Full-Stack Web Developer.</h1>
+              <h1>Give your brand its true voice.</h1>
               <Typist
             avgTypingDelay = {30}
               cursor={{
@@ -21,21 +21,23 @@ export class Hero extends Component {
                 hideWhenDoneDelay: 1000
               }}
             >
-              <p>Also a</p>
+              <p>We do:</p>
             
-              <span>mechatronics engineer</span>
-              <Typist.Backspace count={21} delay={2000} />
-              <span>mobile app developer (Android)</span>
-              <Typist.Backspace count={30} delay={2000} />
-              <span>guitarist</span>
-              <Typist.Backspace count={9} delay={2000} />
+              <span>Websites</span>
+              <Typist.Backspace count={8} delay={2000} />
+              <span>Mobile apps</span>
+              <Typist.Backspace count={11} delay={2000} />
+              <span>Company profiles</span>
+              <Typist.Backspace count={16} delay={2000} />
+              <span>Business Cards</span>
+              <Typist.Backspace count={14} delay={2000} />
               <span style = {{fontSize: "1.2em"}}>creative.</span>
 
 
             </Typist>
           </div>
           <div className="buttons">
-            <Link to="contact" smooth={true}><button className="hire-button">Hire me today</button></Link>
+            <Link to="contact" smooth={true}><button className="hire-button">Hire us today</button></Link>
             <Link to="about" smooth={true}><button>Find out more</button></Link>
           </div>
         </div>
