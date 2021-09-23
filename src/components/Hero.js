@@ -10,9 +10,9 @@ export class Hero extends Component {
         <div>
           <div>
             
-              <h1>Give your brand its true voice.</h1>
+              <h1>Grow your brand's voice.</h1>
               <Typist
-            avgTypingDelay = {30}
+            avgTypingDelay = {2}
               cursor={{
                 show: true,
                 blink: true,
@@ -21,17 +21,17 @@ export class Hero extends Component {
                 hideWhenDoneDelay: 1000
               }}
             >
-              <p>We do:</p>
+              <p>We:</p>
             
-              <span>Websites</span>
-              <Typist.Backspace count={8} delay={2000} />
-              <span>Mobile apps</span>
-              <Typist.Backspace count={11} delay={2000} />
-              <span>Company profiles</span>
-              <Typist.Backspace count={16} delay={2000} />
-              <span>Business Cards</span>
-              <Typist.Backspace count={14} delay={2000} />
-              <span style = {{fontSize: "1.2em"}}>creative.</span>
+              <span>create and manage websites</span>
+              <Typist.Backspace count={19} delay={1000} />
+              <span> mobile apps</span>
+              <Typist.Backspace count={19} delay={1000} />
+              <span>design company profiles</span>
+              <Typist.Backspace count={16} delay={1000} />
+              <span>business cards</span>
+              <Typist.Backspace count={21} delay={1000} />
+              <span style = {{fontSize: "1.2em"}}>build your brand.</span>
 
 
             </Typist>

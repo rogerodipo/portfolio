@@ -47,7 +47,7 @@ class App extends React.Component {
           </a>
           <ul className="links-ul" >
             <Link to="about" smooth={true} onClick = {this.removeNav}>
-              <li>About Me</li>
+              <li>About Us</li>
             </Link>
 
             <Link to="tools" smooth={true} onClick = {this.removeNav}>
@@ -76,13 +76,11 @@ class App extends React.Component {
             <img src={img} alt="Pattern" />
             <div>
               <h2>
-                My passion is building things that are beautiful to behold and
+                Our passion is building things that are beautiful to behold and
                 simple to use.
               </h2>
               <p>
-                Marketing aside, what you need is a working web or mobile app
-                that looks great and offers a fluid experience. That's what I
-                do.
+                Marketing aside, what you need is a great experience for your customer. That's what we offer. 
               </p>
             </div>
           </div>
@@ -95,13 +93,13 @@ class App extends React.Component {
                 <h1>
                   <FontAwesomeIcon icon={faLaptopCode} />
                 </h1>
-                <h3>Front-end</h3>
+                <h3>Design</h3>
               </div>
               <ul>
-                <li>React</li>
-                <li>Redux</li>
-                <li>Bootstrap</li>
-                <li>Jquery</li>
+                <li>Websites</li>
+                <li>Company profiles</li>
+                <li>Posters</li>
+                <li>Business cards</li>
               </ul>
             </div>
             <div className="grid-item grid-item-2">
@@ -109,12 +107,13 @@ class App extends React.Component {
                 <h1>
                   <FontAwesomeIcon icon={faCode} />
                 </h1>
-                <h3>Back-end</h3>
+                <h3>Development</h3>
               </div>
               <ul>
-                <li>Django</li>
-                <li>Node</li>
-                <li>C-Panel</li>
+                <li>Front-end(React)</li>
+                <li>Backend (NodeJS, Django)</li>
+                <li>Databases (SQL, MongoDB)</li>
+                <li>Managed SaaS and PaaS services</li>
               </ul>
             </div>
 
@@ -123,13 +122,13 @@ class App extends React.Component {
                 <h1>
                   <FontAwesomeIcon icon={faCogs} />
                 </h1>
-                <h3>Engineering</h3>
+                <h3>Tech Support</h3>
               </div>
               <ul>
-                <li>Automation</li>
-                <li>PCB Design</li>
-                <li>PLC Programming</li>
-                <li>PID Control</li>
+                <li>Server maintenance</li>
+                <li>Email (delivery, anti-spam)</li>
+                <li>Domains (.ke, .co.ke, .com, etc)</li>
+                <li>Web hosting</li>
               </ul>
             </div>
           </div>
@@ -204,7 +203,7 @@ class App extends React.Component {
         </section>
         <footer>
           <h1>Let us help grow your brand.</h1>
-          <p>Handcrafted by me. &copy;2019 | mail@rogerodipo.me </p>
+          <p>Handcrafted by us. &copy;2021 | info@inselberg.co.ke | +254 755 586 506 </p>
         </footer>
       </div>
     );
